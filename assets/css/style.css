@@ -151,8 +151,8 @@ h3 {
     border-radius: 10px;
     background-color: white;
     border: none;
-    color: #1766B7;
-    font-family: SanFran-UltraLight;
+    color: #1766B7AA;
+    font-family: SanFran-Text-Light;
     font-size: 15px;
     width: 150px;
     height: 30px;
@@ -175,7 +175,7 @@ h3 {
 .siriscreen  {
     width: 220px;
     height: 390px;
-    font-family: SanFran-UltraLight;
+    font-family: SanFran-Text-Light;
     font-size: 12px;
     color: white;
 }
@@ -209,6 +209,7 @@ h3 {
 
 .time {
     font-size: 50px;
+    font-family: SanFran-UltraLight;
 }
 
 .siriLogo {
@@ -247,11 +248,11 @@ h3 {
 }
 
 .teamPage p {
-    font-family: SanFran-UltraLight;
-    font-size: 15px;
+    font-family: SanFran-Text-Light;
+    font-size: 16px;
     text-align: center;
     margin: 10px;
-
+    color: #555555
 }
 
 .teamPage h2 {
@@ -259,7 +260,6 @@ h3 {
     font-family: SanFran-UltraLight;
     font-size: 40px;
     margin: 10px;
-
 }
 
 #officer-data {
@@ -303,7 +303,7 @@ h3 {
 .name {
     margin-top: 20px;
     font-size: 15px;
-    font-family: SanFran-UltraLight;
+    font-family: SanFran-Text-Light;
     text-decoration: none;
     transition-duration: 0.5s;
     color: black;
@@ -320,7 +320,7 @@ h3 {
 
 .job {
     font-size: 10px;
-    font-family: SanFran-UltraLight;
+    font-family: SanFran-Text-Light;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -362,6 +362,11 @@ footer {
 @font-face {
     font-family: SanFran-UltraLight;
     src: url('../fonts/SanFranciscoDisplay-Ultralight.otf');
+}
+
+@font-face {
+    font-family: SanFran-Text-Light;
+    src: url('../fonts/SanFranciscoText-Light.otf');
 }
 
 /*----------------------------------------------------------------------------*/
